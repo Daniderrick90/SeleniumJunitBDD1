@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.366">
+<testcase classname="Feature to test Upload functionality" name="verify the Upload click functionality in the share your experience page" time="4.138">
+<failure message="The path to the driver executable Unable to locate the chromedriver executable; for more information on how to install drivers, see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/" type="java.lang.IllegalStateException"><![CDATA[Given I enter the URL "https://abrocitinibcom-test.dev.pfizerstatic.io/share-your-experience".failed
+Then I login with the cloudflare access.....................................skipped
+When I wait for 10 seconds..................................................skipped
+Then I click on the "Share_Your" menu - xpath "(//a[text()='SHARE YOUR '])[2]".skipped
+When I wait for 5 seconds...................................................skipped
+When I Scroll to the element "First,tell us" - xpath "//div[@class='share_text']".skipped
+When I wait for 3 seconds...................................................skipped
+When I select the "First_Yes" RadioButton - xpath "//input[@id='sye-yes']"..skipped
+When I wait for 3 seconds...................................................skipped
+Then I take screenshot......................................................skipped
+When I Scroll to the element "I_am" - xpath "//p[contains(text(),'I am:')]".skipped
+When I wait for 3 seconds...................................................skipped
+When I select the "second_No" RadioButton - xpath "(//input[@name='yourself'])[2]".skipped
+When I wait for 3 seconds...................................................skipped
+When I Scroll to the element "Do_You_text" - xpath "//p[contains(text(),'Do you')]".skipped
+When I wait for 3 seconds...................................................skipped
+When I select the "Third_No" RadioButton - xpath "//input[@id='syeresidenceno']".skipped
+When I wait for 3 seconds...................................................skipped
+When I check the "click_on" checkbox - xpath "//input[@id='confirm-sye']"...skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "Submit_Button" menu - xpath "(//button[text()='Continue to next step'])[1]".skipped
+When I wait for 5 seconds...................................................skipped
+When I Scroll to the element "Provide_Your" - xpath "//div[contains(text(),'Provide your')]".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "shashi" into the "First_Name" field - xpath "//input[@id='share-first-name']".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "kiran" into the "Last_Name" field - xpath "//input[@id='share-last-name']".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "shashi@ittdigital.com" into the "Email" field - xpath "//input[@id='share-email']".skipped
+When I wait for 7 seconds...................................................skipped
+Then I click on the "Continue_to_Next_Button" menu - xpath "(//button[@class='btn btn-primary next-step'])[2]".skipped
+When I wait for 3 seconds...................................................skipped
+When I Scroll to the element "We_love" - xpath "//div[@class='we-love']"....skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "QAtest" into the "Last_Name" field - xpath "//textarea[@id='cibinqo_story']".skipped
+When I wait for 3 seconds...................................................skipped
+Then I take screenshot......................................................skipped
+When I Scroll to the element "Privacy_Policy" - xpath "//div[@class='privacy-policy']".skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "Continue_to_Next_Button" menu - xpath "(//button[text()='Continue to next step'])[3]".skipped
+When I wait for 3 seconds...................................................skipped
+When I Scroll to the element "UploadPhotos" - xpath "//span[@class='optional']".skipped
+When I wait for 3 seconds...................................................skipped
+Then I will upload "src//test//resources//files//Screenshot_1.png" on the upload box - xpath "//div[@id='fileupload']/input".skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "With_Cibinqo" menu - xpath "//label[text()='With CIBINQO']".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "12" into the "Month" field - xpath "//input[@placeholder='MM']".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "12" into the "Date" field - xpath "//input[@placeholder='DD']".skipped
+When I wait for 3 seconds...................................................skipped
+When I enter "2022" into the "Year" field - xpath "//input[@placeholder='YYYY']".skipped
+When I wait for 3 seconds...................................................skipped
+When I Scroll to the element "With_Cibinqo" - xpath "//label[text()='With CIBINQO']".skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "Submit" menu - xpath "(//button[text()='Submit'])[2]"..skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "Continue_to_Next_Button" menu - xpath "(//button[text()='Continue to next step'])[4]".skipped
+When I wait for 8 seconds...................................................skipped
+When I Scroll to the element "Edit_Photos" - xpath "//button[text()='Edit photos']".skipped
+When I wait for 3 seconds...................................................skipped
+Then I click on the "Submit" menu - xpath "(//button[text()='Submit'])[1]"..skipped
+When I wait for 20 seconds..................................................skipped
+Then I should be redirected to the "https://abrocitinibcom-test.dev.pfizerstatic.io/share-your-experience/confirmation" page in a same tab.skipped
+Then I take screenshot......................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable Unable to locate the chromedriver executable; for more information on how to install drivers, see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:33)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+	at stepdefintions.Steps.i_enter_the_url(Steps.java:56)
+	at ✽.I enter the URL "https://abrocitinibcom-test.dev.pfizerstatic.io/share-your-experience"(file:///C:/Users/Daniel/Downloads/Eucrisa/Eucrisa/src/test/resources/Features/HomePage.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
